@@ -1,0 +1,71 @@
+.flash-card {
+  background: white;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  margin-top: 200px;
+  box-shadow: 5px 10px #666;
+  border: 1px solid #666;
+}
+
+.choices {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.answer {
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 10px;
+}
+
+.answer:hover {
+  background: #666;
+  color: white;
+  cursor: pointer;
+}
+
+.question {
+  font-size: 30px;
+  margin: 0;
+  padding: 0 0 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.correct {
+  font-size: 25px;
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.next {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  background: white;
+  max-width: 200px;
+  margin: 50px auto 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 25px;
+  box-shadow: 5px 10px #666;
+  border: 1px solid #666;
+}
+
+.next:hover {
+  box-shadow: 5px 10px #FFF;
+  border: 1px solid #FFF;
+  background: #666;
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  background-size: cover;
+  background-image: url('background.jpg');
+}
